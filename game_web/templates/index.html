@@ -5,11 +5,9 @@
     <title>Guess the Number</title>
     <style>
         body {
-            background: linear-gradient(135deg, #f5f7fa, #c3cfe2);
+            background: linear-gradient(to right, #eef2f3, #8e9eab);
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            color: #333;
             display: flex;
-            flex-direction: column;
             align-items: center;
             justify-content: center;
             height: 100vh;
@@ -22,33 +20,33 @@
             border-radius: 15px;
             box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
             text-align: center;
-            max-width: 400px;
             width: 90%;
+            max-width: 400px;
         }
 
         h1 {
-            margin-bottom: 20px;
             color: #2c3e50;
+            margin-bottom: 25px;
         }
 
         input[type="number"] {
-            padding: 10px;
-            width: 60%;
-            border: 2px solid #ddd;
+            padding: 12px;
+            width: 80%;
             border-radius: 10px;
-            margin-bottom: 20px;
+            border: 1px solid #ccc;
             font-size: 16px;
         }
 
         button {
+            margin-top: 15px;
+            padding: 10px 20px;
             background-color: #3498db;
             color: white;
-            padding: 10px 20px;
             border: none;
-            border-radius: 10px;
+            border-radius: 8px;
             font-size: 16px;
             cursor: pointer;
-            transition: 0.3s;
+            transition: background-color 0.3s;
         }
 
         button:hover {
@@ -56,14 +54,14 @@
         }
 
         .message {
-            margin-top: 15px;
+            margin-top: 20px;
             font-weight: bold;
-            color: #e74c3c;
+            color: #d35400;
         }
 
         .attempts {
             margin-top: 10px;
-            color: #555;
+            color: #2c3e50;
         }
     </style>
 </head>
