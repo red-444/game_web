@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adhithya J - AI & ML Developer Portfolio</title>
+    <meta name="description" content="Adhithya J - AI & ML Developer passionate about creating intelligent, scalable solutions. Explore my projects, skills, and experience in machine learning and software development.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <span class="gradient-text">AJ</span>
+            </div>
+            
+            <div class="nav-links" id="navLinks">
+                <a href="#home" class="nav-link">Home</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#skills" class="nav-link">Skills</a>
+                <a href="#projects" class="nav-link">Projects</a>
+                <a href="#education" class="nav-link">Education</a>
+                <a href="#certifications" class="nav-link">Certifications</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </div>
+            
+            <div class="nav-controls">
+                <button class="theme-toggle" id="themeToggle">
+                    <span class="sun-icon">☀️</span>
+                    <span class="moon-icon">🌙</span>
+                </button>
+                <button class="mobile-menu-toggle" id="mobileMenuToggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="particles" id="particles"></div>
+        <div class="hero-content">
+            <h1 class="hero-title">
+                <span>Hi, I'm </span>
+                <span class="gradient-text">Adhithya J</span>
+            </h1>
+            <p class="hero-subtitle">
+                AI & ML Developer passionate about creating intelligent, scalable solutions
+            </p>
+            <div class="hero-buttons">
+               
+                <a href="RESUME 1.pdf" download class="btn btn-primary download-btn">
+  📄 Download Resume
+</a>
+<button class="btn btn-outline" onclick="document.getElementById('contact').scrollIntoView({ behavior: 'smooth' });">
+  ✉️ Get In Touch
+</button>
+
+            </div>
+        </div>
+        <div class="scroll-indicator" onclick="scrollToSection('about')">
+            <span>↓</span>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title gradient-text">About Me</h2>
+                <div class="section-divider"></div>
+            </div>
+            
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>Career Objective</h3>
+                    <p>I am looking forward to the opportunities to apply machine learning and networking expertise to develop intelligent, scalable solutions and enhance system efficiency while growing in a dynamic environment.</p>
+                    
+                    <div class="stats">
+                        <div class="stat-card">
+                            <h4 class="stat-number">3+</h4>
+                            <p>Projects Completed</p>
+                        </div>
+                        <div class="stat-card">
+                            <h4 class="stat-number">6+</h4>
+                            <p>Certifications</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="about-image">
+                    <div class="profile-image">
+                        <div class="profile-placeholder">👤</div>
+                        <div class="code-badge">💻</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title gradient-text">Technical Skills</h2>
+                <div class="section-divider"></div>
+            </div>
+            
+            <div class="skills-content">
+                <div class="technical-skills">
+                    <h3>Programming & Technologies</h3>
+                    <div class="skill-cards">
+                        <div class="skill-card">
+                            <div class="skill-icon python">🐍</div>
+                            <h4>Python</h4>
+                        </div>
+                        <div class="skill-card">
+                            <div class="skill-icon sql">🗄️</div>
+                            <h4>SQL</h4>
+                        </div>
+                        <div class="skill-card">
+                            <div class="skill-icon network">🌐</div>
+                            <h4>Computer Networking</h4>
+                        </div>
+                        <div class="skill-card">
+                            <div class="skill-icon design">🎨</div>
+                            <h4>Web Designing</h4>
+                        </div>
+                        <div class="skill-card">
+                            <div class="skill-icon prompt">✨</div>
+                            <h4>Prompt Engineering</h4>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="additional-skills">
+                    <h3>Additional Skills</h3>
+                    <div class="additional-skill-cards">
+                        <div class="additional-skill-card">
+                            <div class="additional-skill-icon adaptability">⚡</div>
+                            <h4>Quick Adaptability</h4>
+                        </div>
+                        <div class="additional-skill-card">
+                            <div class="additional-skill-icon languages">🌍</div>
+                            <h4>Multilingual</h4>
+                            <p>English, Tamil, Telugu, Hindi</p>
+                        </div>
+                        <div class="additional-skill-card">
+                            <div class="additional-skill-icon reading">📚</div>
+                            <h4>Reading</h4>
+                        </div>
+                        <div class="additional-skill-card">
+                            <div class="additional-skill-icon cricket">🏏</div>
+                            <h4>Cricket</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title gradient-text">Featured Projects</h2>
+                <div class="section-divider"></div>
+            </div>
+            
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image fake-news">
+                        <div class="project-icon">🔍</div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Fake News Detection Model</h3>
+                        <p>Machine learning model to identify and classify fake news articles using natural language processing techniques and advanced algorithms.</p>
+                        <div class="project-tags">
+                            <span class="tag">Python</span>
+                            <span class="tag">NLP</span>
+                            <span class="tag">ML</span>
+                        </div>
+                        <div class="project-buttons">
+                            <button class="btn btn-primary btn-sm">🔗 Demo</button>
+                            <button class="btn btn-outline btn-sm">📱 Code</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="project-card">
+                    <div class="project-image youtube">
+                        <div class="project-icon">📺</div>
+                    </div>
+                    <div class="project-content">
+                        <h3>YouTube Downloader Model</h3>
+                        <p>Efficient video downloader application with support for multiple formats and quality options, featuring a user-friendly interface.</p>
+                        <div class="project-tags">
+                            <span class="tag">Python</span>
+                            <span class="tag">GUI</span>
+                            <span class="tag">API</span>
+                        </div>
+                        <div class="project-buttons">
+                            <button class="btn btn-primary btn-sm">🔗 Demo</button>
+                            <button class="btn btn-outline btn-sm">📱 Code</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="project-card">
+                    <div class="project-image chatbot">
+                        <div class="project-icon">🤖</div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Commercial Chatbot</h3>
+                        <p>Intelligent conversational AI chatbot designed for commercial applications with natural language understanding and response generation.</p>
+                        <div class="project-tags">
+                            <span class="tag">AI</span>
+                            <span class="tag">NLP</span>
+                            <span class="tag">Chatbot</span>
+                        </div>
+                        <div class="project-buttons">
+                            <button class="btn btn-primary btn-sm">🔗 Demo</button>
+                            <button class="btn btn-outline btn-sm">📱 Code</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="education">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title gradient-text">Education</h2>
+                <div class="section-divider"></div>
+            </div>
+            
+            <div class="education-timeline">
+                <div class="timeline-line"></div>
+                
+                <div class="education-item left">
+                    <div class="education-content">
+                        <div class="education-card">
+                            <h3>Bachelor of Science in Computer Science with AI & ML</h3>
+                            <p class="institution">Nallamuthu Gounder Mahalingam College of Arts and Science</p>
+                            <p class="period">Aug 2022 - May 2025</p>
+                            <div class="grade">
+                                <span class="grade-value">8.2</span>
+                                <span class="grade-type">GPA</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="education-icon bachelor">🎓</div>
+                </div>
+                
+                <div class="education-item right">
+                    <div class="education-content">
+                        <div class="education-card">
+                            <h3>Higher Secondary Education</h3>
+                            <p class="institution">Sri GVG Vishalakshi Matric Higher Secondary School</p>
+                            <p class="period">June 2020 - May 2022</p>
+                            <div class="grade">
+                                <span class="grade-value">83.7%</span>
+                                <span class="grade-type">Percentage</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="education-icon school">🏫</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certifications Section -->
+    <section id="certifications" class="certifications">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title gradient-text">Certifications</h2>
+                <div class="section-divider"></div>
+            </div>
+            
+            <div class="certifications-grid">
+                <div class="cert-card">
+                    <div class="cert-icon ai">🧠</div>
+                    <h3>AI Foundations</h3>
+                    <p>A collaboration of ISTE and IBM</p>
+                    <span class="cert-badge ibm">IBM</span>
+                </div>
+                
+                <div class="cert-card">
+                    <div class="cert-icon data">📊</div>
+                    <h3>Big Data Foundations</h3>
+                    <p>IBM SkillsBuild</p>
+                    <span class="cert-badge ibm">IBM</span>
+                </div>
+                
+                <div class="cert-card">
+                    <div class="cert-icon cloud">☁️</div>
+                    <h3>Cloud Computing Fundamentals</h3>
+                    <p>IBM SkillsBuild</p>
+                    <span class="cert-badge ibm">IBM</span>
+                </div>
+                
+                <div class="cert-card">
+                    <div class="cert-icon python-cert">🐍</div>
+                    <h3>Python Certificate</h3>
+                    <p>SpokenTutorial</p>
+                    <span class="cert-badge python">Python</span>
+                </div>
+                
+                <div class="cert-card">
+                    <div class="cert-icon ml">📈</div>
+                    <h3>ML for Beginners</h3>
+                    <p>Simplilearn</p>
+                    <span class="cert-badge ml-badge">ML</span>
+                </div>
+                
+                <div class="cert-card">
+                    <div class="cert-icon prompt-cert">✨</div>
+                    <h3>Foundations of Prompt Engineering</h3>
+                    <p>AWS SkillBuilder</p>
+                    <span class="cert-badge aws">AWS</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title gradient-text">Get In Touch</h2>
+                <div class="section-divider"></div>
+                <p class="section-subtitle">Ready to bring your next project to life? Let's collaborate and create something amazing together.</p>
+            </div>
+            
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon email">✉️</div>
+                        <div class="contact-details">
+                            <h4>Email</h4>
+                            <p>jadhithya6@gmail.com</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon phone">📞</div>
+                        <div class="contact-details">
+                            <h4>Phone</h4>
+                            <p>+91 7539969729</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon location">📍</div>
+                        <div class="contact-details">
+                            <h4>Location</h4>
+                            <p>Udumalpet - 642201, Tamil Nadu</p>
+                        </div>
+                    </div>
+                    
+                    <div class="social-links">
+                        <a href="#" class="social-link linkedin">💼</a>
+                        <a href="#" class="social-link github">📱</a>
+                    </div>
+                </div>
+                
+                <div class="contact-form">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                        </div>
+                        
+                        <button type="submit" class="btn btn-primary btn-full">
+                            📤 Send Message
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>© 2025 Sivabharathi. Designed with ❤️ and built with passion.</p>
+        </div>
+    </footer>
+
+    <!-- Scroll to Top Button -->
+    <button class="scroll-top" id="scrollTop">
+        ↑
+    </button>
+
+    <script src="script.js"></script>
+</body>
+</html>
